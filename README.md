@@ -569,6 +569,23 @@ Or, if you don't have `GraalVM` installed, you can run the native executable bui
 
 - If you want to learn more about building native executables, please consult https://quarkus.io/guides/maven-tooling.
 
+### ### Invoking REST Endpoint on Browser:
+- Books:
+````
+http://localhost:8080/api/books
+````
+
+- Count:
+````
+http://localhost:8080/api/books/count
+````
+
+- Id ( de 1 a 4 ):
+````
+http://localhost:8080/api/books/1
+````
+
+
 ### Running Success:
 
 ![image](https://user-images.githubusercontent.com/46926951/234695593-3d36de3a-be4d-471d-b5b9-3694e57b8696.png)
