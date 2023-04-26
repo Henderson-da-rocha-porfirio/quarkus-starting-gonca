@@ -502,7 +502,7 @@ curl http://localhost:8080/api/books
 > **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
 
 
-### Running for README.md:
+### Running for README.md in Intellij:
 
 * 1 - Selecionar o ícone:
 
@@ -523,7 +523,7 @@ or
 
 ### Packaging and running the application
 
-The application can be packaged using:
+- The application can be packaged using:
 ```shell script
 ./mvnw package
 ```
