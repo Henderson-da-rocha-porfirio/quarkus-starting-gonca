@@ -498,15 +498,24 @@ or wrapper:
 curl http://localhost:8080/api/books
 ````
 
+![image](https://user-images.githubusercontent.com/46926951/234696513-d069a5af-979b-4b7e-af53-382285202530.png)
 
+---
+
+### DevUI
 > **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
 
+![image](https://user-images.githubusercontent.com/46926951/234696382-893fd0cc-9165-47cb-9085-9990aa0e7705.png)
+
+---
 
 ### Running for README.md in Intellij:
 
 * 1 - Selecionar o ícone:
 
 ![image](https://user-images.githubusercontent.com/46926951/234694644-7e6f1557-a487-4a9e-9a03-2e6bc79360e2.png)
+
+---
 
 * 2 - To Click
 
@@ -520,6 +529,7 @@ or
 
 ![image](https://user-images.githubusercontent.com/46926951/234695244-7474ce3d-7361-4b3a-be93-0642ff470a3c.png)
 
+---
 
 ### Packaging and running the application
 
