@@ -468,21 +468,26 @@ Choose one of the two to work with Endpoints:
 
 ## Running the application
 
+### Running the application in dev mode
+
+You can run your application in dev mode that enables live coding using:
+
 ### Executing in Development Mode:
 ````
 mvn quarkus:dev
 ````
 
-### Maven Wrapper
-````
-./mvnw quarkus:dev
+or wrapper:
 
+````shell script
+./mvnw compile quarkus:dev
 ````
 
 - Application Running on port `8080`
 
+
 ### Maven Test
-````
+````shell script
 ./mvnw test
 ````
 
@@ -494,20 +499,16 @@ curl http://localhost:8080/api/books
 ````
 
 
-## Running the application in dev mode
-
-You can run your application in dev mode that enables live coding using:
-
-### Executing in Development Mode:
-````
-mvn quarkus:dev
-````
-
-````shell script
-./mvnw compile quarkus:dev
-````
-
 > **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
+
+
+### Running for README.md:
+
+* 1 - Selecionar o ícone:
+
+![image](https://user-images.githubusercontent.com/46926951/234694644-7e6f1557-a487-4a9e-9a03-2e6bc79360e2.png)
+
+
 
 ## Packaging and running the application
 
@@ -538,24 +539,21 @@ You can create a native executable using:
 ./mvnw verify -Pnative
 ```
 
-Or, if you don't have GraalVM installed, you can run the native executable build in a container using: 
+Or, if you don't have `GraalVM` installed, you can run the native executable build in a container using: 
 ```shell script
 ./mvnw package -Pnative -Dquarkus.native.container-build=true
 ```
 
-You can then execute your native executable with: `./target/rest-book-1.0.0-SNAPSHOT-runner`
+- You can then execute your native executable with: `./target/rest-book-1.0.0-SNAPSHOT-runner`
 
-If you want to learn more about building native executables, please consult https://quarkus.io/guides/maven-tooling.
+### If you want to learn more about building native executables, please consult https://quarkus.io/guides/maven-tooling.
 
-## Related Guides
+### Related Guides
 
+- Provided Code
 
-## Provided Code
+- RESTEasy Reactive
 
-### RESTEasy Reactive
-
-Easily start your Reactive RESTful Web Services
+- Easily start your Reactive RESTful Web Services
 
 [Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
-"# quarkus-starting-gonca-new"  
-"# quarkus-starting-gonca-new"  
