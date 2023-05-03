@@ -1,39 +1,8 @@
-# rest-book
+# Starting with Quarkus: building rest book api
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
-If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
-
-# Starting with Quarkus
-
-## Book App
-
-![VideoScreenshot--StartingwithQuarkusUdemy-0’17”](https://user-images.githubusercontent.com/46926951/233161733-b62bad3b-f515-42bb-a62a-501421b6c880.jpg)
-
----
-
-## Quarkus DOCs:
-- 1 - [ Site ](https://quarkus.io/)
-- 2 - [ GitHub ](https://github.com/quarkusio/quarkus)
-- 3 - [ Generate application ](https://code.quarkus.io/)
-
-The different steps:
-
-* Understand `Quarkus`,
-* Check your development environment,
-* Get your hands on Quarkus,
-* Expose a `REST` endpoint using `JAX-RS`,
-* Inject `beans` with `CDI`(CDI Java: É a Injeção de Dependência e Contextos (CDI), especificada por JSR-299, é parte integrante do Java EE 6 e fornece uma arquitetura que permite aos componentes do Java EE, como os servlets, enterprise beans e JavaBeans, existirem dentro do ciclo de vida de uma aplicação com escopos bem definidos.),
-* Test the REST endpoint with `JUnit` and `RESTAssured`,
-* Configure the application with MicroProfile Configuration
-* Configure Quarkus,
-* Add profiles to the configuration,
-* Build executable `JARs`
-* Build a native executable and a `Linux` executable with `GraalVM`,
-* Check the performances of a Quarkus application,
-* Containerize the application with Docker and execute it.
-
-- Able to bootstrap, develop, package and execute a REST application, but most important, take Quarkus to your next project. 
+If you want to learn more about Quarkus, please visit its website: https://quarkus.io/
 
 ---
 
@@ -66,7 +35,40 @@ The different steps:
 
 * 12 - [ Running the application ](https://github.com/Henderson-da-rocha-porfirio/quarkus-starting-gonca#running-the-application)
 
-* 13 - [ Testing the application ]()
+* 13 - [ Testing the application ](https://github.com/Henderson-da-rocha-porfirio/quarkus-starting-gonca#testing-the-application)
+
+---
+
+## Book App
+
+![VideoScreenshot--StartingwithQuarkusUdemy-0’17”](https://user-images.githubusercontent.com/46926951/233161733-b62bad3b-f515-42bb-a62a-501421b6c880.jpg)
+
+---
+
+## Quarkus DOCs:
+- 1 - [ Site ](https://quarkus.io/)
+- 2 - [ GitHub ](https://github.com/quarkusio/quarkus)
+- 3 - [ Generate application ](https://code.quarkus.io/)
+
+The different steps:
+
+* Understand `Quarkus`,
+* Check your development environment,
+* Get your hands on Quarkus,
+* Expose a `REST` endpoint using `JAX-RS`,
+* Inject `beans` with `CDI`(CDI Java: É a Injeção de Dependência e Contextos (CDI), especificada por JSR-299, é parte integrante do Java EE 6 e fornece uma arquitetura que permite aos componentes do Java EE, como os servlets, enterprise beans e JavaBeans, existirem dentro do ciclo de vida de uma aplicação com escopos bem definidos.),
+* Test the REST endpoint with `JUnit` and `RESTAssured`,
+* Configure the application with MicroProfile Configuration
+* Configure Quarkus,
+* Add profiles to the configuration,
+* Build executable `JARs`
+* Build a native executable and a `Linux` executable with `GraalVM`,
+* Check the performances of a Quarkus application,
+* Containerize the application with Docker and execute it.
+
+- Able to bootstrap, develop, package and execute a REST application, but most important, take Quarkus to your next project. 
+
+---
 
 ## Quarkus
 
