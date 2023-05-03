@@ -8,7 +8,8 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.is;
 
 @QuarkusTest
-public class BookResourceTest extends NativeBookResourceIT {
+//public class BookResourceTest extends NativeBookResourceIT {
+public class BookResourceTest {
     @Test
     public void shouldGetAllBooks() {
         given()
