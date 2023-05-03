@@ -686,6 +686,36 @@ http://localhost:8080/api/books/1
 
 ---
 
-### Executing Tests:
+### Ways to run the tests:
 
-- `mvn test`
+* 1 - Terminal with command `mvn test`:
+
+![image](https://user-images.githubusercontent.com/46926951/236051515-59a06250-a981-472a-b20a-7bbff77008a6.png)
+
+---
+
+* 2 - in the code itself:
+
+![image](https://user-images.githubusercontent.com/46926951/236052348-b58f69c8-9bc2-48a1-b39a-69eb1f7a3387.png)
+
+---
+
+![image](https://user-images.githubusercontent.com/46926951/236052563-25a1bb32-b13e-485e-ac8b-4c6032e69c3f.png)
+
+---
+
+* 3 - With the app started ` mvn quarkus:dev`(port:8080)
+
+![image](https://user-images.githubusercontent.com/46926951/236052896-e0b8109e-76b4-4365-935e-59d92c06f64a.png)
+
+---
+
+- after the application `started`, on the bottom line to click on `r`:
+
+![image](https://user-images.githubusercontent.com/46926951/236053451-12f2f2ac-450c-4e7c-9b65-cea771dd271d.png)
+ 
+ ---
+ 
+ ![image](https://user-images.githubusercontent.com/46926951/236054047-0f28041b-b681-4cf1-95ce-cf736f4e13d8.png)
+
+ 
