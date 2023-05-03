@@ -602,3 +602,6 @@ http://localhost:8080/api/books/1
 - Easily start your Reactive RESTful Web Services
 
 [Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
+
+
+## Testing the application
