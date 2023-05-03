@@ -675,7 +675,17 @@ http://localhost:8080/api/books/1
 
 #### Test to count the books annotated (text/explain):
 
-![VideoScreenshot--StartingwithQuarkusUdemy-6’05”](https://user-images.githubusercontent.com/46926951/236041267-a4eaf06e-8ae4-4265-8623-c31fa0c0094b.jpg)
+![VideoScreenshot--StartingwithQuarkusUdemy-6’23”](https://user-images.githubusercontent.com/46926951/236043325-86423334-7d22-43d5-a87d-fa52be0a99f9.jpg)
 
 ---
 
+
+#### Test to get a book with JSON:
+
+![VideoScreenshot--StartingwithQuarkusUdemy-7’04”](https://user-images.githubusercontent.com/46926951/236043694-28889419-0235-4db4-b3fd-c5ba93e62734.jpg)
+
+---
+
+### Executing Tests:
+
+- `mvn test`
