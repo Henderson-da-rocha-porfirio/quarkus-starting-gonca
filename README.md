@@ -607,3 +607,75 @@ http://localhost:8080/api/books/1
 
 
 ## Testing the application
+
+### Unit Tests versus Integration tests
+
+![VideoScreenshot--StartingwithQuarkusUdemy-2’13”](https://user-images.githubusercontent.com/46926951/236013854-dfad119e-ab4d-4bc7-9710-59e7e863a9e7.jpg)
+
+---
+
+### Frameworks: JUnit and RESTAssured:
+
+![VideoScreenshot--StartingwithQuarkusUdemy-2’28” (1)](https://user-images.githubusercontent.com/46926951/236014206-0a3dd066-36a9-4367-9f3f-8da0a11a9b5e.jpg)
+
+---
+
+### [JUnit](https://junit.org/junit5/)
+
+![VideoScreenshot--StartingwithQuarkusUdemy-3’01”](https://user-images.githubusercontent.com/46926951/236014521-c5c60db0-7418-4a0f-8048-8056a8a2d64b.jpg)
+
+---
+
+### [RESTAssured](https://rest-assured.io/)
+
+![VideoScreenshot--StartingwithQuarkusUdemy-3’30”](https://user-images.githubusercontent.com/46926951/236015220-82ac7700-3646-4290-895d-9cf6f905dad2.jpg)
+
+---
+
+### Dependencies
+
+![VideoScreenshot--StartingwithQuarkusUdemy-3’42”](https://user-images.githubusercontent.com/46926951/236015395-a8c62645-b483-4a26-b947-2c98c66cceb4.jpg)
+
+---
+
+### Quarkus Test Class:  `@QuarkusTest`
+
+#### Integration JUnit:
+
+- `@Test`, `@Disable @Test` and `@BeforeAll`:
+
+---
+
+![VideoScreenshot--StartingwithQuarkusUdemy-4’25”](https://user-images.githubusercontent.com/46926951/236037177-e7c6fd72-160e-4c21-ab2e-ca49d52a65f0.jpg)
+
+---
+
+#### Integration RESTAssured:
+
+
+- given(), when() and then():
+
+![VideoScreenshot--StartingwithQuarkusUdemy-4’38”](https://user-images.githubusercontent.com/46926951/236037960-4e157746-12d4-4d85-b1ba-60447e79503c.jpg)
+
+---
+
+- Example:
+
+* 1. Book Resource annoted with a method `@GET`. And Book Resource Test annoted with @QuarkusTest.
+* `given()`: specific URL ( default localhost 8080 - /api/books ). Pass it a `.header`. In this case that the method accepts JSON.
+* `ARRAY`: the size s four because have four books.
+
+---
+
+#### Test to giving the size of this array:
+
+![VideoScreenshot--StartingwithQuarkusUdemy-5’49”](https://user-images.githubusercontent.com/46926951/236040891-5e65abea-1991-490a-a1dd-74bd869a93e9.jpg)
+
+---
+
+#### Test to count the books annotated (text/explain):
+
+![VideoScreenshot--StartingwithQuarkusUdemy-6’05”](https://user-images.githubusercontent.com/46926951/236041267-a4eaf06e-8ae4-4265-8623-c31fa0c0094b.jpg)
+
+---
+
