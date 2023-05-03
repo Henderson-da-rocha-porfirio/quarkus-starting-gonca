@@ -64,7 +64,9 @@ The different steps:
 
 * 11 - [ Developer Joy -  easy to develop principle ](https://github.com/Henderson-da-rocha-porfirio/quarkus-starting-gonca#developer-joy)
 
-* 12 - [ Running the application ](https://github.com/Henderson-da-rocha-porfirio/quarkus-starting-gonca#running-the-application) 
+* 12 - [ Running the application ](https://github.com/Henderson-da-rocha-porfirio/quarkus-starting-gonca#running-the-application)
+
+* 13 - [ Testing the application ]()
 
 ## Quarkus
 
