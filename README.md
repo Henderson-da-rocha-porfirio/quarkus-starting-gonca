@@ -723,6 +723,16 @@ http://localhost:8080/api/books/1
  ---
  
  ![image](https://user-images.githubusercontent.com/46926951/236054047-0f28041b-b681-4cf1-95ce-cf736f4e13d8.png)
+ 
+ ---
+ 
+ ### Using `@NativeImageTest`:
+ 
+ ````
+ mvn verify -Pnative
+ ````
+ 
+![VideoScreenshot--StartingwithQuarkusUdemy-0’53”](https://user-images.githubusercontent.com/46926951/236295458-b7ff9f60-9514-4a79-af2e-f63f4810af8e.jpg)
 
  
 ## Configuring The Application
@@ -792,6 +802,58 @@ mvn quarkus:dev -Dbooks.genre=Drama
 
 
 ## Packaging The Application
+
+![VideoScreenshot--StartingwithQuarkusUdemy-2’53”](https://user-images.githubusercontent.com/46926951/236291450-3a6f13cc-70d1-43b5-81d7-68e90eea3153.jpg)
+
+---
+
+![VideoScreenshot--StartingwithQuarkusUdemy-3’56”](https://user-images.githubusercontent.com/46926951/236291587-743fba75-671b-4a8f-b2b4-b4ab5bc35f73.jpg)
+
+
+---
+
+````
+mvn package
+````
+
+````
+mvn package -DskipTests
+````
+
+````
+mvn package -Dquarkus.package.type=jar
+````
+
+````
+mvn package -Dquarkus.package.type=legacy-jar
+````
+
+````
+mvn package -Dquarkus.package.type=uber-jar
+````
+
+- Native binary executable
+
+````
+mvn package -Dquarkus.package.type=native
+````
+
+- Native binary executable Shorten:
+
+````
+mvn package -Pnative
+````
+
+- production:
+
+````
+java -jar target/quarkus-app/quarkus-run.jar
+````
+
+````
+java -Dquarkus.banner.enabled=false -jar target/quarkus-app/quarkus-run.jar
+````
+
 
 ## Executing The Application
 
