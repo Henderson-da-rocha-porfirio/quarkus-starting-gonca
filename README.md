@@ -7,7 +7,7 @@ If you want to learn more about Quarkus, please visit its website: [quarkus](htt
 - References:
  
 * [ Quarkus Guides ](https://quarkus.io/guides/)
-* * [ QuarkusIO - Github ](https://github.com/quarkusio)
+* [ QuarkusIO - Github ](https://github.com/quarkusio)
 * [ Quarkus ZulipChat ](https://quarkusio.zulipchat.com/)
 * [ Quarkus Fórum ](https://groups.google.com/g/quarkus-dev?pli=1)
 * [ Quarkus Bootstraping ](https://code.quarkus.io/)
