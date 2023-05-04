@@ -2,7 +2,19 @@
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
-If you want to learn more about Quarkus, please visit its website: https://quarkus.io/
+If you want to learn more about Quarkus, please visit its website: [quarkus](https://quarkus.io/)
+
+- References:
+- 
+[ Quarkus Guides ](https://quarkus.io/guides/)
+[ QuarkusIO - Github ](https://github.com/quarkusio)
+[ Quarkus ZulipChat ](https://quarkusio.zulipchat.com/)
+[ Quarkus Fórum ](https://groups.google.com/g/quarkus-dev?pli=1)
+[ Quarkus Bootstraping ](https://code.quarkus.io/)
+[ Quarkus Extensions Github ](https://github.com/quarkiverse)
+[ Blog Agoncal ](https://antoniogoncalves.org/)
+[ Github Agoncal ](https://github.com/agoncal)
+[ Books Agoncal ](https://www.amazon.com/stores/Antonio-Goncalves/author/B00NCPGLV2?ref=ap_rdr&store_ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true)
 
 ---
 
@@ -857,3 +869,56 @@ java -Dquarkus.banner.enabled=false -jar target/quarkus-app/quarkus-run.jar
 
 ## Executing The Application
 
+### Containerizing: [ Doc ](https://quarkus.io/guides/container-image)
+
+### [ Container Image Options ](https://quarkus.io/guides/all-config#quarkus-container-image_quarkus-container-image-container-image)
+
+
+- Add extension library in `pom.xml`:
+
+![VideoScreenshot--StartingwithQuarkusUdemy-2’59”](https://user-images.githubusercontent.com/46926951/236296739-5a4b4248-3458-41bc-b099-a5e46ef0b643.jpg)
+
+---
+
+- After add extension library in `pom.xml`:
+
+- Add extension:
+
+````
+mvn quarkus:add-extension -Dextensions="container-image-docker"
+````
+
+- Set Quarkus Container image with `true`:
+
+````
+mvn package -Dquarkus.container-image-build=true
+````
+
+
+- Especifies Quarkus Package Type (optional):
+
+````
+mvn package -Dquarkus.container-image-build=true -Dquarkus.package.type=jar
+````
+or
+````
+mvn package -Dquarkus.container-image-build=true -Dquarkus.package.type=legacy-jar
+````
+
+- Especifies docker tag:
+
+````
+mvn package -Dquarkus.container-image-build=true -Dquarkus.package.type=jar -Dquarkus.container.image.tag=jvm
+````
+
+- Afterfore create Docker image, just do a docker run:
+
+````
+docker run -i --rm -p 8080:8080 agoncal/rest-book:1.0-SNAPSHOT
+````
+
+- Dockerizing Linux Native Executables
+
+````
+docker run -i --rm -p 8080:8080 agoncal/rest-book:native
+````
