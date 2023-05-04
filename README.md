@@ -37,7 +37,7 @@ If you want to learn more about Quarkus, please visit its website: https://quark
 
 * 13 - [ Testing the application ](https://github.com/Henderson-da-rocha-porfirio/quarkus-starting-gonca#testing-the-application)
 
-* 14 - [ Configuring the application ( MicroProfile - Microservices - Application.properties ) ](https://github.com/Henderson-da-rocha-porfirio/quarkus-starting-gonca#microprofiles---microservices)
+* 14 - [ Configuring the application ( MicroProfile - Microservices - Application.properties ) ](https://github.com/Henderson-da-rocha-porfirio/quarkus-starting-gonca#configuring-the-application)
 
 * 15 - [ Packaging The Application - Build an Executable JAR ]()
 
