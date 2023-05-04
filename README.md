@@ -37,7 +37,9 @@ If you want to learn more about Quarkus, please visit its website: https://quark
 
 * 13 - [ Testing the application ](https://github.com/Henderson-da-rocha-porfirio/quarkus-starting-gonca#testing-the-application)
 
-* 14 - [ MicroProfile - Microservices ](https://github.com/Henderson-da-rocha-porfirio/quarkus-starting-gonca#microprofiles---microservices)
+* 14 - [ Configuring the application ( MicroProfile - Microservices - Application.properties ) ](https://github.com/Henderson-da-rocha-porfirio/quarkus-starting-gonca#microprofiles---microservices)
+
+* 15 - [ Packaging The Application - Build an Executable JAR ]()
 
 ---
 
@@ -721,7 +723,9 @@ http://localhost:8080/api/books/1
  ![image](https://user-images.githubusercontent.com/46926951/236054047-0f28041b-b681-4cf1-95ce-cf736f4e13d8.png)
 
  
-## Microprofiles - Microservices
+## Configuring The Application
+
+### Microprofiles - Microservices
 
 * [ Doc - MicroProfile ](https://microprofile.io/)
 * [ MicroProfile-Config ](https://microprofile.io/project/eclipse/microprofile-config)
@@ -733,10 +737,14 @@ http://localhost:8080/api/books/1
 ---
 
 - Commands:
+
+ * `%dev`:
+
 ````
 mvn quarkus:dev
 ````
 
+* `custom`
 ````
 mvn quarkus:dev -Dbooks.genre=Drama
 ````
@@ -746,4 +754,40 @@ mvn quarkus:dev -Dbooks.genre=Drama
 
 ---
 
+### All Configurations
+
+[ Here ](https://quarkus.io/guides/all-config)
+
+---
+
+* Dev UI - This Editor have all the keys and the values of all the properties that uses in application:
+
+![VideoScreenshot--StartingwithQuarkusUdemy-3’52”](https://user-images.githubusercontent.com/46926951/236081523-15ba7e13-286f-4142-884a-95b37aa0d0f4.jpg)
+
+---
+
+![VideoScreenshot--StartingwithQuarkusUdemy-3’55” (1)](https://user-images.githubusercontent.com/46926951/236081993-a27bd139-deff-4d68-ac26-0ef8059e0db8.jpg)
+
+---
+
+### Configuring Application
+
+[ Config - Site ](https://quarkus.io/guides/config)
+
+
+### Quarkus Profiles ( %dev - %test - %prod - custom )
+
+![VideoScreenshot--StartingwithQuarkusUdemy-1’33”](https://user-images.githubusercontent.com/46926951/236082779-693831cd-9dc4-4824-9c8b-d8aaed38eca5.jpg)
+
+---
+
+- Example of the `custom`:
+
+
+![VideoScreenshot--StartingwithQuarkusUdemy-3’17”](https://user-images.githubusercontent.com/46926951/236082967-59a6dfa9-a95b-460d-9033-78e18b5606c5.jpg)
+
+---
+
+
+## Packaging The Application
 
