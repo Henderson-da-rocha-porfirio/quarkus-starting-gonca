@@ -5,16 +5,16 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 If you want to learn more about Quarkus, please visit its website: [quarkus](https://quarkus.io/)
 
 - References:
-- 
-[ Quarkus Guides ](https://quarkus.io/guides/)
-[ QuarkusIO - Github ](https://github.com/quarkusio)
-[ Quarkus ZulipChat ](https://quarkusio.zulipchat.com/)
-[ Quarkus Fórum ](https://groups.google.com/g/quarkus-dev?pli=1)
-[ Quarkus Bootstraping ](https://code.quarkus.io/)
-[ Quarkus Extensions Github ](https://github.com/quarkiverse)
-[ Blog Agoncal ](https://antoniogoncalves.org/)
-[ Github Agoncal ](https://github.com/agoncal)
-[ Books Agoncal ](https://www.amazon.com/stores/Antonio-Goncalves/author/B00NCPGLV2?ref=ap_rdr&store_ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true)
+ 
+* [ Quarkus Guides ](https://quarkus.io/guides/)
+* * [ QuarkusIO - Github ](https://github.com/quarkusio)
+* [ Quarkus ZulipChat ](https://quarkusio.zulipchat.com/)
+* [ Quarkus Fórum ](https://groups.google.com/g/quarkus-dev?pli=1)
+* [ Quarkus Bootstraping ](https://code.quarkus.io/)
+* [ Quarkus Extensions Github ](https://github.com/quarkiverse)
+* [ Blog Agoncal ](https://antoniogoncalves.org/)
+* [ Github Agoncal ](https://github.com/agoncal)
+* [ Books Agoncal ](https://www.amazon.com/stores/Antonio-Goncalves/author/B00NCPGLV2?ref=ap_rdr&store_ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true)
 
 ---
 
