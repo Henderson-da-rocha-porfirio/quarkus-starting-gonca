@@ -56,8 +56,6 @@ If you want to learn more about Quarkus, please visit its website: [quarkus](htt
 
 * 16 - [ Executing The Application ](https://github.com/Henderson-da-rocha-porfirio/quarkus-starting-gonca#executing-the-application)
 
-* 17 - [ Kubernetes and Quarkus ]()
-
 ---
 
 ## Book App
@@ -925,19 +923,5 @@ docker run -i --rm -p 8080:8080 agoncal/rest-book:1.0-SNAPSHOT
 ````
 docker run -i --rm -p 8080:8080 agoncal/rest-book:native
 ````
-
-## Kubernetes and Quarkus
-
-### Additional Readings
-
-- `Docker`: https://www.docker.com/
-
-- `DockerHub`: https://hub.docker.com/
-
-- `Kubernetes` website: https://kubernetes.io/en/
-
-- `Minikube` official website: https://minikube.sigs.k8s.io/docs/start/
-
-- Minikube (Kubernetes): https://kubernetes.io/en/docs/tutorials/kubernetes-basics/create-cluster/cluster-intro/
 
 
